@@ -52,3 +52,7 @@ No topo do `extrair_escolas.py`:
 - O CNPJ é gravado como texto, já preparado para o CNPJ alfanumérico.
 - Para empresário individual, a razão social é o nome da pessoa física, então o campo fica em branco.
 - Os dados são públicos e atualizados mensalmente pela Receita Federal. Os arquivos baixados e o CSV gerado não fazem parte deste repositório.
+
+## Download dos dados prontos
+
+[Baixar a versão mais recente](https://github.com/SEU_USUARIO/cnpj-escolas/releases/latest)
