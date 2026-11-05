@@ -223,3 +223,10 @@ escolas.csv
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Saídas e listas privadas
+escolas*.csv
+escolas*.json
+*.sqlite
+exclusoes*.txt
+cnpj-escolas-*/

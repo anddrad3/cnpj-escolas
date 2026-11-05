@@ -1,0 +1,129 @@
+{
+  "versao": "2.0.0",
+  "gerado_em": "2026-11-05T01:13:53.946881+00:00",
+  "contagens": {
+    "estabelecimentos_lidos": 73809379,
+    "educacao_cnae_principal": 1533407,
+    "ativos_brasileiros_candidatos": 701884,
+    "educacao_nao_ativa_excluida": 831434,
+    "exterior_excluido": 89,
+    "publicados": 184719,
+    "nome_por_razao_social": 50084,
+    "nome_por_nome_fantasia": 134635,
+    "sem_nome_publicavel_excluidos": 517165,
+    "empresario_individual_sem_fantasia_excluido": 517165
+  },
+  "csv": "escolas-20261104-v2-validado.csv",
+  "sha256": "067359c38c50e83e9d3ee55cd8684cdbae1bc7c12e27ca3b22dcadf1831282f1",
+  "situacao": "02 - ativa na base de origem; não é consulta cadastral em tempo real",
+  "cnaes": {
+    "8511200": "Educação infantil - creche",
+    "8512100": "Educação infantil - pré-escola",
+    "8513900": "Ensino fundamental",
+    "8520100": "Ensino médio",
+    "8531700": "Educação superior - graduação",
+    "8532500": "Educação superior - graduação e pós",
+    "8533300": "Educação superior - pós e extensão",
+    "8541400": "Educação profissional técnica de nível médio",
+    "8542200": "Educação profissional tecnológica",
+    "8591100": "Ensino de esportes",
+    "8592901": "Ensino de dança",
+    "8592902": "Ensino de artes cênicas",
+    "8592903": "Ensino de música",
+    "8592999": "Ensino de arte e cultura (outros)",
+    "8593700": "Ensino de idiomas",
+    "8599603": "Treinamento em informática",
+    "8599605": "Cursos preparatórios para concursos",
+    "8599699": "Outras atividades de ensino"
+  },
+  "fonte": "Receita Federal - Dados Abertos CNPJ",
+  "arquivos": [
+    {
+      "nome": "Municipios.zip",
+      "bytes": 43443
+    },
+    {
+      "nome": "Estabelecimentos0.zip",
+      "bytes": 2277696710
+    },
+    {
+      "nome": "Estabelecimentos1.zip",
+      "bytes": 341948627
+    },
+    {
+      "nome": "Estabelecimentos2.zip",
+      "bytes": 336288966
+    },
+    {
+      "nome": "Estabelecimentos3.zip",
+      "bytes": 368597760
+    },
+    {
+      "nome": "Estabelecimentos4.zip",
+      "bytes": 340413465
+    },
+    {
+      "nome": "Estabelecimentos5.zip",
+      "bytes": 335452647
+    },
+    {
+      "nome": "Estabelecimentos6.zip",
+      "bytes": 369782592
+    },
+    {
+      "nome": "Estabelecimentos7.zip",
+      "bytes": 338419961
+    },
+    {
+      "nome": "Estabelecimentos8.zip",
+      "bytes": 343568209
+    },
+    {
+      "nome": "Estabelecimentos9.zip",
+      "bytes": 364761032
+    },
+    {
+      "nome": "Empresas0.zip",
+      "bytes": 570972127
+    },
+    {
+      "nome": "Empresas1.zip",
+      "bytes": 77901368
+    },
+    {
+      "nome": "Empresas2.zip",
+      "bytes": 79125712
+    },
+    {
+      "nome": "Empresas3.zip",
+      "bytes": 85102880
+    },
+    {
+      "nome": "Empresas4.zip",
+      "bytes": 90222463
+    },
+    {
+      "nome": "Empresas5.zip",
+      "bytes": 97310075
+    },
+    {
+      "nome": "Empresas6.zip",
+      "bytes": 94194819
+    },
+    {
+      "nome": "Empresas7.zip",
+      "bytes": 98676055
+    },
+    {
+      "nome": "Empresas8.zip",
+      "bytes": 98736571
+    },
+    {
+      "nome": "Empresas9.zip",
+      "bytes": 94309858
+    }
+  ],
+  "politica_nome": "Nome fantasia primeiro. Sem fantasia: razão social apenas se não for empresário individual (2135). Sem nome publicável, registro excluído.",
+  "limites": "Inclui cursos e outras atividades de ensino. Não equivale ao Censo Escolar. Nome fantasia pode identificar pessoa física. Contatos cadastrais podem ser de representantes. Dados públicos não são isentos da LGPD.",
+  "validacao_final": "Nomes compostos apenas por pontuação são tratados como ausentes, com as mesmas regras do extrator 2.0.0 publicado."
+}
